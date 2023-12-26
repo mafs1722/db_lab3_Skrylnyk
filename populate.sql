@@ -1,4 +1,4 @@
--- Додайте дані про студії та їх зв'язок із фільмами
+-- дані про студії та їх зв'язок із фільмами
 INSERT INTO ProductionStudios (StudioID, StudioName, Country, YearFounded)
 VALUES
 (1, 'Sony Pictures', 'USA', '1989-08-07'), -- The Shawshank Redemption
@@ -30,7 +30,7 @@ VALUES
 
 select * from Movies
 
--- Додайте дані про акторів до таблиці Actor
+-- дані про акторів до таблиці Actor
 INSERT INTO Actor (ActorID, FirstName, LastName, BirthYear, Country, MovieID_)
 VALUES
 (1, 'Tim', 'Robbins', '1958-10-16', 'USA', 1), -- The Shawshank Redemption
